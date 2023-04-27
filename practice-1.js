@@ -1,0 +1,10 @@
+var fruits = ["Apple", "Banana", "Orange", "7", "8"];
+console.log(fruits.length);
+fruits.push(10);
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.unshift("Armaan");
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
