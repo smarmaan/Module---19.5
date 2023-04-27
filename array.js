@@ -7,3 +7,7 @@ console.log("Number in index [3] = ", numbers[3]);
 console.log("Index of Number (7) = ", numbers.indexOf(7));
 numbers[3] = "Armaan";
 console.log(numbers);
+for (let i = 0; i < numbers.length; i++) {
+    const element = numbers[i];
+    console.log(element);
+}
